@@ -1,0 +1,73 @@
+@font-face {
+    src: url("Technology.ttf");
+    font-family: "Timerfont";
+    
+}
+
+body {
+    margin: 0;
+    text-align:  center;
+    background-image: url(https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=890&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    align-items: center;
+    margin: 25px auto; 
+    border: 2px solid #faa307cf; 
+    border-radius: 10px;
+    background: #161a1dCF;
+    
+}
+
+h3{
+    font-family: 'Graduate', cursive;
+    font-size: 32px;
+    color: #6a040f;
+    -webkit-text-stroke: 0.1px #faa307;
+    margin: 15px auto;
+}
+
+.scoredisplay {
+    background: black;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: "Timerfont";
+    font-size: 70px;
+    color: red;    
+}
+
+button {
+    font-family: "Timerfont";
+    background: #6a040f;
+    color: #faa307; 
+    border: 1px solid #faa307;
+    border-radius: 4px;
+    margin: 20px auto;
+}
+
+button:hover {
+    background: #faa307;
+    color: #6a040f; 
+    border: 1px solid #6a040f;
+    border-radius: 4px;
+    margin: 20px auto;
+}
+
+h4{
+    font-family: 'La Belle Aurore', cursive;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 0px 1px black; 
+}

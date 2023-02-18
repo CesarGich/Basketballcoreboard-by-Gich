@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Graduate&family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="boards">
+                <h3>HOME</h3>
+                    <div class="scoredisplay">
+                    <p id="Home-score">0</p>
+                    </div>
+                    
+                    <div class="score-btns">
+                    <button id="hs-bt1" onclick="onePointH()">+ 1</button>
+                    <button id="hs-bt2" onclick="twoPointsH()">+ 2</button>
+                    <button id="hs-bt3" onclick="threePointsH()">+ 3</button>
+                    </div>  
+            </div>
+            
+            <div clsss="boards">
+                <h3>GUEST</h3>
+                    <div class="scoredisplay">
+                    <p id="Guest-score">0</p>
+                    </div>
+                    
+                    <div class="score-btns">
+                    <button id="gs-bt1" onclick="onePointG()">+ 1</button>
+                    <button id="gs-bt2" onclick="twoPointsG()">+ 2</button>
+                    <button id="gs-bt3" onclick="threePointsG()">+ 3</button>
+                    </div>  
+            </div>
+        </div>
+        <h4> By César Gil.</h4>
+        <script src="index.js"></script>
+    </body>
+</html>
